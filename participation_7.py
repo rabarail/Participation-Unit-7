@@ -13,3 +13,5 @@ while Pizza_layer:
     topping.append(user_input)
     if user_input != "quit":
             print("l'll add", user_input, "to your pizza")
+    
+print("Your toppings are: ", topping)
