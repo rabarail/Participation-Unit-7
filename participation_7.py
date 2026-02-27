@@ -6,3 +6,9 @@ Pizza_layer = True
 
 while Pizza_layer: 
     user_input = input("Enter the topping of your liking (or 'quit'): ")
+
+    if user_input == "quit":
+        Pizza_layer = False
+
+    topping.append(user_input)
+    if user_input != "quit":
